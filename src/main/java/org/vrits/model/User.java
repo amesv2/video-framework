@@ -17,15 +17,12 @@ public class User {
 	private String mailId;
 	private String mobileNum;
 	private String gender;
-	
-	
+
 	@Override
 	public String toString() {
-		return "User [userId=" + userId + ", firstName=" + firstName
-				+ ", secondName=" + secondName + ", profileName=" + profileName
-				+ ", password=" + password + ", dob=" + dob + ", mailId="
-				+ mailId + ", mobileNum=" + mobileNum + ", gender=" + gender
-				+ "]";
+		return "User [userId=" + userId + ", firstName=" + firstName + ", secondName=" + secondName + ", profileName="
+				+ profileName + ", password=" + password + ", dob=" + dob + ", mailId=" + mailId + ", mobileNum="
+				+ mobileNum + ", gender=" + gender + "]";
 	}
 
 	public Long getUserId() {
