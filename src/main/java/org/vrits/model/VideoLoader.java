@@ -2,6 +2,10 @@ package org.vrits.model;
 
 import java.io.InputStream;
 
+/**
+ * @author BOLLAPUH
+ *
+ */
 public class VideoLoader {
 
 	private Long videoId;

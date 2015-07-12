@@ -11,19 +11,11 @@ public class User {
 	private Long userId;
 	private String firstName;
 	private String secondName;
-	private String profileName;
 	private String password;
 	private Date dob;
 	private String mailId;
 	private String mobileNum;
 	private String gender;
-
-	@Override
-	public String toString() {
-		return "User [userId=" + userId + ", firstName=" + firstName + ", secondName=" + secondName + ", profileName="
-				+ profileName + ", password=" + password + ", dob=" + dob + ", mailId=" + mailId + ", mobileNum="
-				+ mobileNum + ", gender=" + gender + "]";
-	}
 
 	public Long getUserId() {
 		return userId;
@@ -47,14 +39,6 @@ public class User {
 
 	public void setSecondName(String secondName) {
 		this.secondName = secondName;
-	}
-
-	public String getProfileName() {
-		return profileName;
-	}
-
-	public void setProfileName(String profileName) {
-		this.profileName = profileName;
 	}
 
 	public String getPassword() {
@@ -95,6 +79,14 @@ public class User {
 
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", firstName=" + firstName + ", secondName=" + secondName + ", password="
+				+ password + ", dob=" + dob + ", mailId=" + mailId + ", mobileNum=" + mobileNum + ", gender=" + gender
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
 	}
 
 }

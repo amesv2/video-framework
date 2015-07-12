@@ -1,5 +1,9 @@
 package org.vrits.model;
 
+/**
+ * @author BOLLAPUH
+ *
+ */
 public class Comments {
 
 	private Long commentId;
