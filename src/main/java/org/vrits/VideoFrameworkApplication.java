@@ -8,8 +8,7 @@ import org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 
-@SpringBootApplication(exclude = { FreeMarkerAutoConfiguration.class, DataSourceAutoConfiguration.class,
-		XADataSourceAutoConfiguration.class })
+@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, XADataSourceAutoConfiguration.class })
 public class VideoFrameworkApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
